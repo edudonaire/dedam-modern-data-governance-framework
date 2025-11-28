@@ -1,5 +1,6 @@
 # Modern Data Governance, Decision Intelligence & DEDAM Framework  
-### A Scientifically Rigorous Architecture for Autonomous Data Systems  
+### A Scientifically Rigorous Architecture for Autonomous Data Systems
+
 **Author:** Eduardo Donaire Filho  
 **DOI:** https://doi.org/10.5281/zenodo.17743045  
 **Version:** 4.2 (Final – 2025)  
@@ -7,8 +8,13 @@
 
 ---
 
-## 📌 Overview
+## 📛 Badges
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17743045.svg)](https://doi.org/10.5281/zenodo.17743045)
+![License: CC BY 4.0](https://img.shields.io/badge/License-CC--BY%204.0-blue.svg)
 
+---
+
+## 📌 Overview
 This repository contains the full academic preprint (Version 4.2) of the paper:
 
 **“Modern Data Governance, Business Intelligence, and Analytics Automation —  
@@ -23,65 +29,91 @@ The work introduces **DEDAM**, the first mathematically grounded framework that 
 - Observability & Automation  
 - DecisionOps  
 
-into a **single scientific architecture** for autonomous decision-making systems.
+into a single scientific architecture for **autonomous decision-making systems**.
 
 ---
 
 ## 📄 Paper Access
 
-📘 **Download PDF (v4.2 – Final)**  
-[🔗 Click here to download](paper/Donaire_Filho_2025_Modern_Data_Governance_Whitepaper_v4.2.pdf)
+### 📘 Download PDF (v4.2 – Final)
+➡️ [**Click here to download the whitepaper**](paper/Donaire_Filho_2025_Modern_Data_Governance_Whitepaper_v4.2.pdf)
 
-📌 **DOI:** https://doi.org/10.5281/zenodo.17743045  
-📌 **Zenodo Record:** https://zenodo.org/records/17743045  
+### 📌 DOI  
+https://doi.org/10.5281/zenodo.17743045
+
+### 📌 Zenodo Record  
+https://zenodo.org/records/17743045
 
 ---
 
-## 🔬 Abstract (Summary)
-
-Modern enterprises face exponential increases in data generation but linear growth in decision-making capacity — creating the **Data-Decision Gap**.  
-This paper formalizes this phenomenon mathematically through:
+## 🔬 Abstract
+Modern enterprises face exponential increases in data generation but linear growth in decision-making capacity — producing the **Data-Decision Gap**.  
+This work formalizes that gap using:
 
 - the **Decision Debt Integral**,  
-- a control-theoretic stability model,  
-- causal inference methods (back-door, interventions),  
-- metadata-driven architectures,  
-- and a discrete event simulation demonstrating **up to 40% reduction in decision latency**.
+- a **control-theoretic stability model**,  
+- **causal inference** (interventions, confounding control),  
+- **active metadata architectures**,  
+- a **discrete-event simulation** proving up to **40% decision latency reduction**.
 
-The proposed **DEDAM Maturity Model (Levels 1–5)** provides a quantified, engineering-grade blueprint for transitioning from manual BI workflows to fully autonomous DecisionOps ecosystems.
+The proposed **DEDAM Maturity Model (L1–L5)** is the first engineering-grade blueprint for transitioning from manual BI workflows to autonomous **DecisionOps** ecosystems.
 
 ---
 
 ## 🧠 Key Contributions
 
-### 🔹 1. Decision Debt Integral (DDI)
-A formal model quantifying how information overload leads to organizational paralysis.
+### 🔹 1. Decision Debt Integral (DDI)  
+Mathematically models organizational paralysis.
 
-### 🔹 2. Control-Theoretic Data Governance
-A stability framework using spectral radius constraints and system feedback loops.
+### 🔹 2. Control-Theoretic Data Governance  
+Uses spectral radius constraints and closed-loop stabilization.
 
-### 🔹 3. Causal AI Integration
-Interventional analysis (do-operator), confounding control, and causal graphs.
+### 🔹 3. Causal AI Integration  
+Back-door criterion, DAGs, interventions.
 
-### 🔹 4. Active Metadata Architecture
-Automated schema drift detection using KL Divergence.
+### 🔹 4. Active Metadata Architecture  
+KL-divergence–based drift detection.
 
-### 🔹 5. Discrete Event Simulation (DES)
-Validated latency reduction across a scale-free topology (Barabási–Albert model).
+### 🔹 5. Discrete Event Simulation  
+Validates performance improvements across scale-free enterprise networks.
 
-### 🔹 6. DEDAM Maturity Model (L1–L5)
-A measurable, implementable roadmap aligned with:
+### 🔹 6. DEDAM Maturity Model  
+Fully aligned with:
+- NIST AI RMF  
+- CISA Zero Trust  
+- DCAM 2.2  
+- U.S. Executive Order on Safe & Trustworthy AI  
 
-- **NIST AI Risk Management Framework**  
-- **CISA Zero Trust Maturity Model**  
-- **EDM Council DCAM 2.2**  
-- **Executive Order on Safe & Trustworthy AI**  
+---
+
+## 📁 Repository Structure
+
+dedam-modern-data-governance-framework/
+│
+├── paper/
+│ └── Donaire_Filho_2025_Modern_Data_Governance_Whitepaper_v4.2.pdf
+│
+├── CITATION.cff
+├── CONTRIBUTING.md
+├── LICENSE
+├── README.md
+└── .gitignore
+
+---
+
+## 🤝 Contributing
+Please review the contribution guidelines:  
+➡️ **[CONTRIBUTING.md](CONTRIBUTING.md)**
+
+---
+
+## 📜 License
+This project is licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.  
+➡️ **[View Full License](LICENSE)**
 
 ---
 
 ## 📚 Citation
-
-To cite this work:
 
 ```bibtex
 @misc{donaire2025dedam,
