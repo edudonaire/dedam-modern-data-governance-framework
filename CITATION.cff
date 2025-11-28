@@ -1,11 +1,37 @@
 cff-version: 1.2.0
-message: "If you use this work, please cite it as below."
-title: "Modern Data Governance, Business Intelligence, and Analytics Automation"
+message: "If you use this work, please cite it as follows."
+title: "Modern Data Governance, Business Intelligence, and Analytics Automation — The DEDAM Framework"
+abstract: >
+  A scientifically rigorous framework unifying Data Mesh, Data Fabric,
+  Causal AI, Control Theory, Active Metadata, and DecisionOps automation.
+  Includes mathematical foundations such as the Decision Debt Integral,
+  stability conditions via spectral radius constraints, and a five-level
+  maturity model aligned with NIST AI RMF, CISA Zero Trust, DCAM 2.2,
+  and the U.S. Executive Order on Safe & Trustworthy AI.
+
 authors:
   - family-names: "Donaire Filho"
     given-names: "Eduardo"
-doi: "10.5281/zenodo.17743045"
-url: "https://github.com/edudonaire/dedam-modern-data-governance-framework"
+    orcid: "0000-0000-0000-0000"   # (se tiver, me passa que eu coloco!)
+    affiliation: "NexuLogics — Data Governance & Decision Intelligence"
+
 version: "4.2"
+doi: "10.5281/zenodo.17743045"
 date-released: "2025-01-01"
+
+url: "https://github.com/edudonaire/dedam-modern-data-governance-framework"
+repository-code: "https://github.com/edudonaire/dedam-modern-data-governance-framework"
+
+keywords:
+  - Data Governance
+  - Decision Intelligence
+  - Data Mesh
+  - Data Fabric
+  - Causal AI
+  - Control Theory
+  - Metadata
+  - DecisionOps
+  - Enterprise Automation
+  - Maturity Model
+
 license: "CC-BY-4.0"
