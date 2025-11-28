@@ -1,18 +1,13 @@
-# Contributing to the DEDAM Framework
+## 🤝 Contributing
 
-Thank you for your interest in contributing!
+We welcome community contributions to improve the DEDAM framework and expand its scientific and practical applications.
 
-## 💡 How to contribute
-- Open an issue to propose improvements, fixes, or enhancements.
-- Submit pull requests with clear descriptions.
-- Follow the repository code structure and naming conventions.
+Please review the contribution guidelines here:
 
-## 🧪 Future contributions
-Upcoming modules include:
-- Simulation reproducibility (Monte Carlo experiments)
-- Governance Controller reference implementation
-- Metadata orchestration utilities
-- Causal inference helper functions
+➡️ **[CONTRIBUTING.md](CONTRIBUTING.md)**
 
-## 📝 License
-By contributing, you agree that your contributions will be licensed under CC BY 4.0.
+If you have suggestions for improvements or find issues, feel free to open:
+
+- A Pull Request (PR)
+- An Issue  
+- Or contact the author directly
