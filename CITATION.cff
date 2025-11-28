@@ -12,7 +12,7 @@ abstract: >
 authors:
   - family-names: "Donaire Filho"
     given-names: "Eduardo"
-    orcid: "0000-0000-0000-0000"   # (se tiver, me passa que eu coloco!)
+    orcid: "0009-0008-6620-9022"
     affiliation: "NexuLogics — Data Governance & Decision Intelligence"
 
 version: "4.2"
