@@ -88,16 +88,17 @@ Fully aligned with:
 
 ## 📁 Repository Structure
 
-```dedam-modern-data-governance-framework/
+<pre><code>dedam-modern-data-governance-framework/
 │
 ├── paper/
-│ └── Donaire_Filho_2025_Modern_Data_Governance_Whitepaper_v4.2.pdf
+│   └── Donaire_Filho_2025_Modern_Data_Governance_Whitepaper_v4.2.pdf
 │
 ├── CITATION.cff
 ├── CONTRIBUTING.md
 ├── LICENSE
 ├── README.md
-└── .gitignore```
+└── .gitignore
+</code></pre>
 
 ---
 
