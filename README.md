@@ -1,81 +1,95 @@
 # Modern Data Governance, Decision Intelligence & DEDAM Framework  
 ### A Scientifically Rigorous Architecture for Autonomous Data Systems  
 **Author:** Eduardo Donaire Filho  
-**DOI:** 10.5281/zenodo.17743045  
-**Whitepaper Version:** v4.2
+**DOI:** https://doi.org/10.5281/zenodo.17743045  
+**Version:** 4.2 (Final – 2025)  
+**License:** CC BY 4.0  
 
 ---
 
-## 📘 Overview
+## 📌 Overview
 
-This repository hosts the resources, theoretical foundations, and implementation guidelines associated with the whitepaper:
+This repository contains the full academic preprint (Version 4.2) of the paper:
 
-**“Modern Data Governance, Business Intelligence, and Analytics Automation:  
+**“Modern Data Governance, Business Intelligence, and Analytics Automation —  
 A Scientifically Rigorous Framework and Maturity Model for Decision Intelligence at Scale.”**
 
-The work introduces:
+The work introduces **DEDAM**, the first mathematically grounded framework that unifies:
 
-- **DEDAM** (Data Engineering, Decision Automation & Maturity Model)  
-- A formalization of **Data Mesh + Data Fabric + Causal AI + Control Theory**  
-- A blueprint for **DecisionOps**  
-- A simulation-based analysis of governance-induced latency  
-- A quantified roadmap for evolving from manual BI to autonomous decision systems
+- Data Mesh  
+- Data Fabric  
+- Causal AI  
+- Control Theory  
+- Observability & Automation  
+- DecisionOps  
 
----
-
-## 🎯 Goals of This Repository
-
-- Provide reproducibility guidelines  
-- Offer pseudocode & conceptual models  
-- Host reference implementations (coming soon)  
-- Consolidate code used in the simulation experiments  
-- Serve as a basis for extensions, citations, and academic reuse  
+into a **single scientific architecture** for autonomous decision-making systems.
 
 ---
 
-## 🧠 Key Concepts
+## 📄 Paper Access
 
-### **1. Decision Debt Integral (DDI)**  
-Mathematical formulation of how organizations accumulate latency when information growth outpaces decision capacity.
+📘 **Download PDF (v4.2 – Final)**  
+[🔗 Click here to download](paper/Donaire_Filho_2025_Modern_Data_Governance_Whitepaper_v4.2.pdf)
 
-### **2. Dependency Matrix B**  
-Modeling domain interdependencies using linear algebra and stability conditions (ρ(B) < 1).
-
-### **3. Drift Detection via KL-Divergence**  
-A principled method for statistical and semantic drift observability.
-
-### **4. Intervention Modeling (Causal AI)**  
-Use of SCMs, back-door adjustment, front-door logic, and IV methods.
-
-### **5. DEDAM Maturity Levels (1–5)**  
-A measurable, engineering-grade governance roadmap.
+📌 **DOI:** https://doi.org/10.5281/zenodo.17743045  
+📌 **Zenodo Record:** https://zenodo.org/records/17743045  
 
 ---
 
-## 🔬 Simulation Model
+## 🔬 Abstract (Summary)
 
-The simulation uses:
+Modern enterprises face exponential increases in data generation but linear growth in decision-making capacity — creating the **Data-Decision Gap**.  
+This paper formalizes this phenomenon mathematically through:
 
-- Barabási–Albert topology (scale-free graph)
-- Poisson process for event arrivals
-- Propagation functions for drift & inconsistency
-- DEDAM maturity levels to test governance efficacy
+- the **Decision Debt Integral**,  
+- a control-theoretic stability model,  
+- causal inference methods (back-door, interventions),  
+- metadata-driven architectures,  
+- and a discrete event simulation demonstrating **up to 40% reduction in decision latency**.
 
-A full Monte-Carlo extension is planned for v5.
+The proposed **DEDAM Maturity Model (Levels 1–5)** provides a quantified, engineering-grade blueprint for transitioning from manual BI workflows to fully autonomous DecisionOps ecosystems.
 
 ---
 
-## 📂 Repository Structure (planned)
+## 🧠 Key Contributions
 
-```text
-/whitepaper/
-    Donaire_Filho_2025_Modern_Data_Governance_Whitepaper_v4.2.pdf
-/simulation/
-    dedam_simulation.ipynb   (coming soon)
-    graph_generation.py      (coming soon)
-/src/
-    causal/
-    control/
-    metadata_management/
-/docs/
-    architecture_diagrams/
+### 🔹 1. Decision Debt Integral (DDI)
+A formal model quantifying how information overload leads to organizational paralysis.
+
+### 🔹 2. Control-Theoretic Data Governance
+A stability framework using spectral radius constraints and system feedback loops.
+
+### 🔹 3. Causal AI Integration
+Interventional analysis (do-operator), confounding control, and causal graphs.
+
+### 🔹 4. Active Metadata Architecture
+Automated schema drift detection using KL Divergence.
+
+### 🔹 5. Discrete Event Simulation (DES)
+Validated latency reduction across a scale-free topology (Barabási–Albert model).
+
+### 🔹 6. DEDAM Maturity Model (L1–L5)
+A measurable, implementable roadmap aligned with:
+
+- **NIST AI Risk Management Framework**  
+- **CISA Zero Trust Maturity Model**  
+- **EDM Council DCAM 2.2**  
+- **Executive Order on Safe & Trustworthy AI**  
+
+---
+
+## 📚 Citation
+
+To cite this work:
+
+```bibtex
+@misc{donaire2025dedam,
+  title={Modern Data Governance, Business Intelligence, and Analytics Automation},
+  author={Donaire Filho, Eduardo},
+  year={2025},
+  doi={10.5281/zenodo.17743045},
+  url={https://doi.org/10.5281/zenodo.17743045},
+  publisher={Zenodo},
+  license={CC-BY 4.0}
+}
